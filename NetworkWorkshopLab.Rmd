@@ -173,7 +173,6 @@ summary(model2)
 
 $\hat{\beta}_1*$change in edges + $\hat{\beta}_2*$change in triangles
 
-
 Edge that creates no new triangles, the conditional log-odds is: $\hat{\beta}_1$ (which yields probability $exp(\hat{\beta}_1)/(1+exp(\hat{\beta}_1))$):
 ```{r}
 getProbFromLO(model2$coef[1]) 
